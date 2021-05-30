@@ -1,8 +1,8 @@
-# initial setup
-npm init
-npm install
-npm i --save-dev typescript @types/node ts-node
-mkdir src && touch Readme.md src/index.ts tsconfig.json
+ # initial setup
+  npm init
+  npm install
+  npm i --save-dev typescript @types/node ts-node
+  mkdir src && touch Readme.md src/index.ts tsconfig.json
 
  # build setup
  mkdir bin && touch bin/bmi_calculator
@@ -26,5 +26,5 @@ mkdir src && touch Readme.md src/index.ts tsconfig.json
  npm i -g typescript && tsc
  # docker setup
  touch Dockerfile .dokerignore
- docker build -t bmi-calculator .
- docker run -it bmi-calculator:latest
+  docker build -t bmi-calculator .
+  docker run -it bmi-calculator:latest
