@@ -1,0 +1,31 @@
+{
+  "name": "code-20210629-daljeetsingh",
+  "version": "1.0.0",
+  "description": "bmi calculator assignment",
+  "main": "index.js",
+  "scripts": {
+    "bmi_calculator": "./node_modules/ts-node/dist/bin.js src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index input.json",
+    "test": "jest --coverage"
+  },
+  "author": "Daljeet Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.1",
+    "jest": "^27.0.3",
+    "ts-jest": "^27.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "coverageDirectory": "<rootDir>/tests/coverageReport"
+  }
+}

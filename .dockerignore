@@ -1,0 +1,9 @@
+.git
+.cache
+node_modules
+bin
+
+/bmi_calculator/node_modules
+/bmi_calculator/bmi
+/bmi_calculator/tests
+/bmi_calculator/README.md
