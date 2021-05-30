@@ -26,5 +26,5 @@
  npm i -g typescript && tsc
  # docker setup
  touch Dockerfile .dokerignore
-  docker build -t bmi-calculator .
-  docker run -it bmi-calculator:latest
+docker build -t bmi-calculator .
+docker run -it bmi-calculator:latest
